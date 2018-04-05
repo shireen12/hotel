@@ -1,0 +1,48 @@
+body{
+  background-color: #777799;
+  color: #FFFFFF;
+  margin: 0;
+  font-family: helvetica,arial,sans-serif;
+  padding-top: 4em;
+}
+
+
+.navbar-top {
+  background-color: rgb(153,102,153);
+  color: rgb(255,255,204);
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  width: auto;
+}
+.navbar-top a {
+  float: left;
+  display: block;
+  padding: 2em;
+  background-color: rgba(255, 255, 128, .5);
+  color: #00ff00;
+}
+.navbar-top a:hover {
+  background-color: rgba(255, 255, 128, .5);
+  color: #00ff00;
+}
+.navbar-top .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .navbar-top.intresse {
+    /* position: relative; */
+  }
+
+  .navbar-top.intresse a.icon {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+  }
+
+  .navbar-top.intreese a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

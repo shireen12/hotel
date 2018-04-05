@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title> Flowers Hotell</title>
+  <link rel="stylesheet" href="css/master.css">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
+  rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scarlet=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+  <nav  class="navbar-top" id="mynavbar">
+    <a href="index.html" class="active"><i class="fas fa-globe"></i> Home</a>
+    <a href="reservation.html">reservation</a>
+    <a href="resturant&bar.html">resturant&bar.html</a>
+    <a href="activities.html">activities</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myfunction()">&#9776;</a>
+</nav>
+<main>
+    <h1> Welcome to your hotel </h1>
+       <img src="images/hotel.jpg" alt="hotel photo">
+
+       <img src="images/hotell.jpg" alt="hotel photo">
+
+  </main>
+  <script>
+  /* toggle between adding and removing the "intresse" class to toppnav when the user clicks on the icons */
+  function myfunction() {
+
+    var x= docment.getElementById("mintopnav");
+    if (x.classname==="topnav") {
+      x.classnam+= "intresse";
+    } else {
+      x.classname ="topnav";
+    }
+  }
+  </script>
+</body>
+</html>
